@@ -12,7 +12,7 @@
     "prepare": "husky"
   },
   "lint-staged": {
-    "*.{ts,tsx,js,jsx}": "eslint --fix"
+    "src/**/*.{ts,tsx,js,jsx}": "eslint --fix"
   },
   "dependencies": {
     "react": "19.0.0",
